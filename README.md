@@ -5,11 +5,14 @@
 
 使用方法:
 
+1. 
+```
 git clone git@github.com:ShengdingHu/Arxiv2Readpaper.git
+```
 
-或者直接[Download ZIP](https://github.com/ShengdingHu/Arxiv2Readpaper/archive/refs/heads/main.zip)
+或者直接[Download ZIP](https://github.com/ShengdingHu/Arxiv2Readpaper/archive/refs/heads/main.zip)再解压。
 
-解压，然后打开Chrome的扩展程序，选择开发者模式，把整个文件夹上传到扩展程序里。
+2. 然后打开Chrome的扩展程序，选择开发者模式，把整个文件夹上传到扩展程序里。
 
 ## 功能
 当在arxiv.org/abs界面时, 或者点击插件图标时, 会弹出一个窗询问是否在ReadPaper里搜索，点击ok跳转到ReadPaper或者点击cancel继续留在arxiv。
