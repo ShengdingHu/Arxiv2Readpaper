@@ -1,0 +1,24 @@
+{
+    "name": "Arxiv2Readpaper",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "自动跳转到Readpaper！",
+    "icons": {
+        "16": "/images/icon_1_16.png",
+        "32": "/images/icon_1_32.png",
+        "48": "/images/icon_1_48.png",
+        "128": "/images/icon_1_128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://arxiv.org/abs/*"],
+        "run_at": "document_idle",
+        "js": ["content.js"]
+      }
+    ],
+    "permissions":  ["storage", "declarativeContent", "activeTab", "scripting"],
+      "background": {
+        "service_worker": "background.js"
+      },
+    "action":{}
+  }
