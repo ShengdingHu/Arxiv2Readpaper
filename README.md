@@ -3,9 +3,10 @@
 这里是一个将arxiv的文章在ReadPaper里自动搜索的小插件。
 个人比较喜欢[ReadPaper](https://readpaper.com/)这个论文阅读工具。
 
+
 使用方法:
 
-1. 
+1.
 ```
 git clone git@github.com:ShengdingHu/Arxiv2Readpaper.git
 ```
@@ -16,6 +17,9 @@ git clone git@github.com:ShengdingHu/Arxiv2Readpaper.git
 
 ## 功能
 当在arxiv.org/abs界面时, 或者点击插件图标时, 会弹出一个窗询问是否在ReadPaper里搜索，点击ok跳转到ReadPaper或者点击cancel继续留在arxiv。
+
+### 更新
+支持以pdf形式在浏览器打开的paper自动在arxiv搜索题目
 
 
 ## 声明
